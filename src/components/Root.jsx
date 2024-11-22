@@ -1,5 +1,6 @@
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
+import TechStack from "./TechStack/TechStack";
 
 const Root = () => {
     return (
@@ -15,7 +16,9 @@ const Root = () => {
                 </section>
             </header>
             <main>
-                <section>MAIN</section>
+                <section className="bg-black py-16">
+                    <TechStack></TechStack>
+                </section>
             </main>
         </div>
     );

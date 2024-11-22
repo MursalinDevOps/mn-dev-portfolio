@@ -13,15 +13,15 @@ const Hero = () => {
           </div>
           <div className="">
             <h3 className="text-3xl font-semibold">Mursalin</h3>
-            <p>Based in Dhaka, Bangladesh</p>
+            <p className="flex items-center gap-2"><span><img className="w-8 rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/255px-Flag_of_Bangladesh.svg.png" alt="" /></span> Based in Bangladesh </p>
           </div>
         </div>
         <div className="relative">
           <h1 className="text-7xl font-semibold ">
-            <span className="pl-10"> MERNSTACK</span> <br />
+            <span className="pl-14"> MERNSTACK</span> <br />
             DEVELOPER{" "}
           </h1>
-          <button className=" border py-3 px-6 text-white absolute bottom-1 -right-20 rounded-full">
+          <button className=" border py-3 px-6 absolute bottom-1 -right-16 rounded-full text-white font-medium bg-gradient-to-r from-pink-500 via-purple-600 to-cyan-500 hover:via-cyan-600 shadow-md transition-transform transform hover:scale-105">
             Contact Me
           </button>
         </div>
@@ -61,7 +61,7 @@ const Hero = () => {
           target="_blank"
           className="w-12 h-12 p-2 rounded-full border border-gray-300 flex items-center justify-center group hover:bg-gray-300  transition duration-300 ease-in-out hover:text-black hover:border-black hover:-translate-y-1"
         >
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-300 group-hover:text-gray-800" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 0h-7.5L12 7.4 7.1 0H0l8.5 12.2L0 24h7.6l4.4-6.3L16.5 24h7.5l-9-12z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-300 group-hover:text-gray-800" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 0h-7.5L12 7.4 7.1 0H0l8.5 12.2L0 24h7.6l4.4-6.3L16.5 24h7.5l-9-12z"></path></svg>
         </a>
       </div>
     </div>

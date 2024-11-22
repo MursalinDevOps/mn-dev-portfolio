@@ -12,7 +12,7 @@ const Hero = () => {
             />
           </div>
           <div className="">
-            <h3 className="text-3xl font-semibold">Mursalin</h3>
+            <h3 className="text-3xl font-semibold">Mursalin <small className="text-xs">(18y)</small></h3>
             <p className="flex items-center gap-2"><span><img className="w-8 rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/255px-Flag_of_Bangladesh.svg.png" alt="" /></span> Based in Bangladesh </p>
           </div>
         </div>
@@ -21,9 +21,9 @@ const Hero = () => {
             <span className="pl-14"> MERNSTACK</span> <br />
             DEVELOPER{" "}
           </h1>
-          <button className=" border py-3 px-6 absolute bottom-1 -right-16 rounded-full text-white font-medium bg-gradient-to-r from-pink-500 via-purple-600 to-cyan-500 hover:via-cyan-600 shadow-md transition-transform transform hover:scale-105">
+          {/* <button className=" border py-3 px-6 absolute bottom-1 -right-16 rounded-full text-white font-medium bg-gradient-to-r from-purple-900 via-purple-700 to-purple-900 hover:via-purple-400 shadow-md transition-transform transform hover:scale-105">
             Contact Me
-          </button>
+          </button> */}
         </div>
       </div>
       {/* social icons */}

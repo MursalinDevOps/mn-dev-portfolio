@@ -5,18 +5,21 @@ import TechStack from "./TechStack/TechStack";
 const Root = () => {
     return (
         <div>
-            <header className="bg-gradient-to-br from-[#1a1a40] to-[#4b006e] w-full min-h-screen lg:min-h-svh">
+             {/* bg-gradient-to-r from-[#1a001a] to-[#0a0a0a] */}
+            <header className="bg-gradient-to-tr from-[#003333] to-[#000000]
+             min-h-screen lg:min-h-svh">
                 {/* navbar */}
                 <nav>
                     <Navbar></Navbar>
                 </nav>
                 {/* hero */}
-                <section className="text-white flex justify-center items-center lg:mt-32">
+                <section className="text-base-300 flex justify-center items-center lg:mt-32">
                     <Hero></Hero>
                 </section>
             </header>
-            <main>
-                <section className="bg-black py-16">
+            {/* bg-gradient-to-r from-black/90 via-black to-black/90 */}
+            <main className="bg-[#0a0a0a]">
+                <section className="py-16">
                     <TechStack></TechStack>
                 </section>
             </main>

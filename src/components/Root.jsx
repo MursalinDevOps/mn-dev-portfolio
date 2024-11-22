@@ -5,7 +5,7 @@ import TechStack from "./TechStack/TechStack";
 const Root = () => {
     return (
         <div>
-            <header className="bg-gradient-to-br from-[#1a1a40] to-[#4b006e] min-h-screen lg:min-h-svh">
+            <header className="bg-gradient-to-br from-[#1a1a40] to-[#4b006e] w-full min-h-screen lg:min-h-svh">
                 {/* navbar */}
                 <nav>
                     <Navbar></Navbar>

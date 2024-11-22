@@ -8,6 +8,7 @@ import {
 import Root from './components/Root';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import ContactMe from './components/Contact/ContactMe';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path:'/projects',
     element:<Projects></Projects>
+  },
+  {
+path:'/contact',
+element:<ContactMe></ContactMe>
   }
 ]);
 createRoot(document.getElementById('root')).render(

@@ -7,6 +7,7 @@ export default function NavBar() {
                 <NavLink className="px-10 rounded-full py-2" to='/'>Home</NavLink>
                 <NavLink className="px-10 rounded-full py-2" to='/about'>About Me</NavLink>
                 <NavLink className="px-10 rounded-full py-2" to='/projects'>Projects</NavLink>
+                <NavLink className="px-10 rounded-full py-2" to='/contact'>Contact Me</NavLink>
                 </ul>
             </div>
 

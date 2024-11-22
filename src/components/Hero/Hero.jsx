@@ -13,9 +13,9 @@ const Hero = () => {
             </div>
            </div>
            <div className="relative">
-            <h1 className="text-8xl font-semibold "><span className="pl-10 font-thin"> MERNSTACK</span> <br />
+            <h1 className="text-7xl font-semibold "><span className="pl-10"> MERNSTACK</span> <br />
             DEVELOPER </h1>
-            <button className="border py-3 px-6 text-white absolute bottom-4 -right-14 rounded-full">Contact Me</button>
+            <button className=" border py-3 px-6 text-white absolute bottom-1 -right-20 rounded-full">Contact Me</button>
            </div>
            </div>
         </div>

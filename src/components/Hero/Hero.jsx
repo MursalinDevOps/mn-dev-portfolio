@@ -1,25 +1,60 @@
-const Hero = () => {
-    return (
-        <div className="flex flex-col justify-center items-center items-center my-20 ">
+import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 
-           <div className="space-y-5">
-           <div className="flex items-center justify-center gap-5">
-            <div>
-                <img className="w-20 h-20 rounded-full" src="https://i.ibb.co.com/0Xm4kRR/IMG-20240109-204149.jpg" />
-            </div>
-            <div className="">
-                <h3 className="text-3xl font-semibold">Mursalin</h3>
-                <p>Based in Dhaka, Bangladesh</p>
-            </div>
-           </div>
-           <div className="relative">
-            <h1 className="text-7xl font-semibold "><span className="pl-10"> MERNSTACK</span> <br />
-            DEVELOPER </h1>
-            <button className=" border py-3 px-6 text-white absolute bottom-1 -right-20 rounded-full">Contact Me</button>
-           </div>
-           </div>
+const Hero = () => {
+  return (
+    <div className="flex flex-col justify-center items-center items-center my-20 ">
+      <div className="space-y-5">
+        <div className="flex items-center justify-center gap-5">
+          <div>
+            <img
+              className="w-20 h-20 rounded-full"
+              src="https://i.ibb.co.com/0Xm4kRR/IMG-20240109-204149.jpg"
+            />
+          </div>
+          <div className="">
+            <h3 className="text-3xl font-semibold">Mursalin</h3>
+            <p>Based in Dhaka, Bangladesh</p>
+          </div>
         </div>
-    );
+        <div className="relative">
+          <h1 className="text-7xl font-semibold ">
+            <span className="pl-10"> MERNSTACK</span> <br />
+            DEVELOPER{" "}
+          </h1>
+          <button className=" border py-3 px-6 text-white absolute bottom-1 -right-20 rounded-full">
+            Contact Me
+          </button>
+        </div>
+      </div>
+      {/* social icons */}
+      <div className="mt-10 flex gap-4">
+        <a
+          href="https://github.com/MursalinDevOps"
+          className="text-2xl border rounded-full p-2"
+        >
+          <FiGithub></FiGithub>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/md-mursalin-751880288/"
+          className="text-2xl border rounded-full p-2"
+        >
+          <FiLinkedin></FiLinkedin>
+        </a>
+        <a
+          href="https://www.facebook.com/mn.mursalin.177308"
+          className="text-2xl border rounded-full p-2"
+        >
+          <FiFacebook></FiFacebook>
+        </a>
+        <a
+          href="https://www.instagram.com/mn_mursalin/"
+          className="text-2xl border rounded-full p-2"
+        >
+          <FiInstagram></FiInstagram>
+        </a>
+      </div>
+    </div>
+  );
 };
 
 export default Hero;

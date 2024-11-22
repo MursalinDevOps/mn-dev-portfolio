@@ -1,0 +1,20 @@
+import Hero from "./Hero/Hero";
+import Navbar from "./Navbar/Navbar";
+
+const Root = () => {
+    return (
+        <div>
+            <header className="bg-gradient-to-br from-[#1a1a40] to-[#4b006e] min-h-screen">
+                {/* navbar */}
+                <nav><Navbar></Navbar></nav>
+                {/* hero */}
+                <section className="text-white"><Hero></Hero></section>
+            </header>
+            <main>
+                <section>MAIN</section>
+            </main>
+        </div>
+    );
+};
+
+export default Root;

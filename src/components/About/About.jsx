@@ -9,7 +9,7 @@ const About = () => {
       ? 'bg-[#0a0a0a] text-base-300' // Homepage styles
       : 'bg-gradient-to-tr from-[#003333] to-[#000000] min-h-screen text-white'; // Non-homepage styles
     return (
-        <div className={`${containerClass} py-12 px-6`}>
+        <div className={`${containerClass} pb-12 px-6`}>
             {location.pathname !== '/' && (
                 <nav>
                     <NavBar />
@@ -24,8 +24,8 @@ const About = () => {
           alt="Profile"
           className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
         />
-        <p className="text-lg text-base-300 leading-relaxed">
-          I'm a 18-year-old developer based in Bangladesh 🇧🇩, practicing web
+        <p className="text-lg text-base-300 leading-relaxed" id="about-description">
+          I'm a 18-year-old self-taught developer based in Bangladesh 🇧🇩, practicing web
           development for almost two years. During this time, I've worked with
           various technologies and built several projects. Currently, I'm
           focused on front-end development and am looking for an part-time job or internship to

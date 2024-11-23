@@ -2,7 +2,7 @@ import { FiInstagram } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center md:my-20 ">
+    <div className="flex flex-col items-center md:my-20" id="hero">
       <div className="">
         <div className="flex items-center justify-center gap-5">
           <div>
@@ -12,7 +12,7 @@ const Hero = () => {
             />
           </div>
           <div className="">
-            <h3 className="text-3xl font-semibold">Mursalin <small className="text-xs">(18y)</small></h3>
+            <h3 className="text-3xl font-semibold">MURSALIN <small className="text-xs">(18Y)</small></h3>
             <p className="flex items-center gap-2"><span><img className="w-8 rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/255px-Flag_of_Bangladesh.svg.png" alt="" /></span> Based in Bangladesh </p>
           </div>
         </div>

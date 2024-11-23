@@ -28,6 +28,9 @@ const Root = () => {
                 <section>
                 <About></About>
                 </section>
+                <section>
+                <ContactMe></ContactMe>
+                </section>
             </main>
         </div>
     );

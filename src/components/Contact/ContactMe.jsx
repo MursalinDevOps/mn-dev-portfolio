@@ -18,10 +18,12 @@ const ContactMe = () => {
             setTimeout(() => setPhoneTooltip(""), 2000); // Reset tooltip after 2 seconds
         }
     };
-
+    const contactContainerClass =
+    location.pathname === '/'
+      ? 'bg-[#0a0a0a] text-base-300' // Homepage styles
+      : 'bg-gradient-to-tr from-[#003333] to-[#000000] min-h-screen text-white'; 
     return (
-        <div className={`min-h-screen items-center  ${location.pathname !== '/' ? 'bg-gradient-to-tr from-[#003333] to-[#000000] min-h-svh' : ''}`}>
-            {/* Navbar */}
+        <div className={`${contactContainerClass} pb-12 px-6`}>
             {location.pathname !== '/' && (
                 <nav>
                     <NavBar />

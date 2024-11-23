@@ -9,7 +9,7 @@ const TechStack = () => {
         .catch((err)=>{console.log(err)})
     },[])
     return (
-        <div className="md:w-10/12 mx-auto pt-20">
+        <div className="w-full md:w-10/12 mx-auto pt-20">
             <div className="text-base-100 mb-5">
             <h2 className="text-4xl font-semibold mb-2">Tech Stack</h2>
             <p className="">Technologies which I have learned and mostly use in my projects</p>

@@ -20,7 +20,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className={`min-h-screen items-center  ${location.pathname !== '/' ? 'bg-[#0a0a0a]' : ''}`}>
+        <div className={`min-h-screen items-center  ${location.pathname !== '/' ? 'bg-gradient-to-tr from-[#003333] to-[#000000] min-h-svh' : ''}`}>
             {/* Navbar */}
             {location.pathname !== '/' && (
                 <nav>
@@ -31,9 +31,9 @@ const ContactMe = () => {
             {/* Main Content */}
             <div className="w-10/12 mx-auto pt-20">
                 <h2 className="text-4xl font-semibold text-base-300 mb-8">Contact Me</h2>
-                <div className="grid grid-cols-12 gap-5 border border-[#333] rounded-lg shadow-lg bg-[#111] py-10">
+                <div className="grid grid-cols-12 gap-5 border border-gray-500 rounded-lg shadow-lg bg-transparent py-10">
                     {/* Contact Info */}
-                    <div className="col-span-12 md:col-span-6 flex flex-col justify-center items-start p-10 space-y-4">
+                    <div className="col-span-12 md:col-span-6 flex flex-col justify-center items-start p-10 space-y-4 border-b md:border-b-0 md:border-r border-gray-500">
                         <div className="mx-auto space-y-3">
                             <p className="text-lg font-semibold text-gray-300 flex items-center">
                                 📧 
@@ -71,8 +71,8 @@ const ContactMe = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <div className="col-span-12 md:col-span-6 flex justify-center items-center border-l">
-                        <form className="w-full max-w-md bg-[#111] p-6 rounded-lg shadow-lg">
+                    <div className="col-span-12 md:col-span-6 flex justify-center items-center">
+                        <form className="w-full max-w-md bg-transparent p-6 rounded-lg shadow-lg">
                             <h2 className="text-lg font-semibold text-gray-300 pb-5 text-center">
                                 Send a direct message
                             </h2>

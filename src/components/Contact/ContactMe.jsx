@@ -61,7 +61,7 @@ const ContactMe = () => {
                                     onMouseEnter={() => setPhoneTooltip("Click to copy")}
                                     onMouseLeave={() => setPhoneTooltip("")}
                                 >
-                                    +88 01865292505
+                                    +880 1865292505
                                     {phoneTooltip && (
                                         <span className="absolute top-8 left-0 bg-black text-white text-xs py-1 px-2 rounded shadow-lg">
                                             {phoneTooltip}

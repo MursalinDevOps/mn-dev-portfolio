@@ -7,12 +7,12 @@ const Hero = () => {
         <div className="flex items-center justify-center gap-5">
           <div>
             <img
-              className="w-24 h-24 rounded-full"
-              src="https://i.ibb.co.com/0Xm4kRR/IMG-20240109-204149.jpg"
+              className="w-24 h-24 rounded-full object-cover"
+              src="https://i.ibb.co.com/GJW59ny/IMG-20240627-WA0006.jpg"
             />
           </div>
           <div className="">
-            <h3 className="text-3xl font-semibold">MURSALIN <small className="text-xs">(18Y)</small></h3>
+            <h3 className="text-3xl font-semibold">Mursalin <small className="text-xs">(18Y)</small></h3>
             <p className="flex items-center gap-2"><span><img className="w-8 rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/255px-Flag_of_Bangladesh.svg.png" alt="" /></span> Based in Bangladesh </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ const ContactMe = () => {
             )}
 
             {/* Main Content */}
-            <div className="w-10/12 mx-auto pt-20">
+            <div className="md:w-10/12 mx-auto pt-20">
                 <h2 className="text-4xl font-semibold text-base-300 mb-8">Contact Me</h2>
                 <div className="grid grid-cols-12 gap-5 border border-gray-500 rounded-lg shadow-lg bg-transparent py-10">
                     {/* Contact Info */}
@@ -42,8 +42,6 @@ const ContactMe = () => {
                                     <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
                                     <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
                                 </svg>
-
-
                                 <span
                                     className="ml-3 cursor-copy relative"
                                     onClick={() => handleCopy("mursalin.dev@gmail.com", "email")}

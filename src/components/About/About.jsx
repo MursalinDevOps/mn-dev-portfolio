@@ -15,7 +15,7 @@ const About = () => {
                     <NavBar />
                 </nav>
             )}
-           <section className="w-10/12 mx-auto pt-20">
+           <section className="md:w-10/12 mx-auto pt-20">
       <h2 className="text-4xl font-bold text-base-300 mb-8">About Me</h2>
            <div className="text-white px-6 border border-gray-500 rounded-lg bg-transparent md:py-10">
       <div className=" rounded-lg px-2 py-6 md:px-6 max-w-lg mx-auto text-center">

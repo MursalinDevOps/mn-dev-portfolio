@@ -2,6 +2,7 @@ import About from "./About/About";
 import ContactMe from "./Contact/ContactMe";
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
+import Projects from "./Projects/Projects";
 import TechStack from "./TechStack/TechStack";
 
 const Root = () => {
@@ -24,6 +25,9 @@ const Root = () => {
             <main className="bg-[#0a0a0a] ">
                 <section>
                     <TechStack></TechStack>
+                </section>
+                <section>
+                    <Projects></Projects>
                 </section>
                 <section>
                     <About></About>

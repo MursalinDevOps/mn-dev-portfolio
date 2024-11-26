@@ -22,7 +22,7 @@ const About = () => {
         <img
           src="https://i.ibb.co.com/0Xm4kRR/IMG-20240109-204149.jpg"
           alt="Profile"
-          className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
+          className="w-36 h-36 rounded-full mx-auto mb-6 object-cover"
         />
         <p className="text-lg text-base-300 leading-relaxed" id="about-description">
           I'm a 18 year old self-taught developer based in Bangladesh 🇧🇩, practicing web

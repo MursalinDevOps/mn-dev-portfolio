@@ -12,12 +12,12 @@ const Hero = () => {
             />
           </div>
           <div className="">
-            <h3 className="text-3xl font-semibold">Mursalin <small className="text-xs">(18Y)</small></h3>
+            <h3 className="text-3xl font-semibold">Mursalin <small className="text-xs">( 18Y)</small></h3>
             <p className="flex items-center gap-2"><span><img className="w-8 rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/255px-Flag_of_Bangladesh.svg.png" alt="" /></span> Based in Bangladesh </p>
           </div>
         </div>
         <div className="relative animate__animated animate__fadeInLeftBig">
-          <h1 className="text-7xl font-semibold ">
+          <h1 className="text-7xl font-semibold mernstack">
             <span className="pl-14"> MERNSTACK</span> <br />
             DEVELOPER{" "}
           </h1>

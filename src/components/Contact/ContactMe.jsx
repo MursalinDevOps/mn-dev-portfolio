@@ -104,7 +104,7 @@ const ContactMe = () => {
                                 type="submit"
                                 className="w-full py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition duration-300"
                             >
-                                Send Message
+                                Send it my way !
                             </button>
                         </form>
                     </div>

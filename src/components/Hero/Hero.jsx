@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative animate__animated animate__fadeInLeftBig">
-          <h1 className="text-7xl font-semibold mernstack">
+          <h1 className="text-7xl font-semibold spaceGrotesk">
             <span className="pl-14"> MERNSTACK</span> <br />
             DEVELOPER{" "}
           </h1>

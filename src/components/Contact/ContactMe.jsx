@@ -33,10 +33,10 @@ const ContactMe = () => {
             {/* Main Content */}
             <div className="md:w-10/12 mx-auto pt-20">
                 <h2 className="text-4xl font-semibold text-base-300 mb-8">Contact Me</h2>
-                <div className="grid grid-cols-12 gap-5 border border-gray-500 rounded-lg shadow-lg bg-transparent py-10">
+                <div className="grid grid-cols-12 md:gap-5 border border-gray-500 rounded-lg shadow-lg bg-transparent md:py-10">
                     {/* Contact Info */}
                     <div className="col-span-12 md:col-span-6 flex flex-col justify-center items-start p-10 space-y-4 border-b md:border-b-0 md:border-r border-gray-500">
-                        <div className="mx-auto space-y-3">
+                        <div className="mx-auto  py-20  md:py-0">
                             <p className="text-lg font-semibold text-gray-300 flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
                                     <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />

@@ -17,9 +17,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative animate__animated animate__fadeInLeftBig">
-          <h1 className="text-7xl font-semibold spaceGrotesk">
+          <h1 className="text-4xl md:text-7xl font-semibold spaceGrotesk">
             <span className="pl-14"> MERNSTACK</span> <br />
-            DEVELOPER{" "}
+            DEVELOPER
           </h1>
           {/* <button className=" border py-3 px-6 absolute bottom-1 -right-16 rounded-full text-white font-medium bg-gradient-to-r from-purple-900 via-purple-700 to-purple-900 hover:via-purple-400 shadow-md transition-transform transform hover:scale-105">
             Contact Me
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
       {/* social icons */}
-      <div className="mt-10 flex gap-4">
+      <div className="mt-4 flex gap-4">
         <a
           href="https://github.com/MursalinDevOps"
           target="_blank"

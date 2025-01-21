@@ -16,7 +16,7 @@ const Root = () => {
                 {/* navbar */}
                 <Navbar></Navbar>
                 {/* hero */}
-                <div className="text-base-300 min-h-screen flex justify-center items-center md:block md:min-h-36 lg:mt-32 ">
+                <div className="text-base-300  min-h-[calc(100vh-70px)] flex justify-center items-center md:block md:min-h-36 lg:mt-32 ">
                     <Hero></Hero>
                 </div>
             </header>

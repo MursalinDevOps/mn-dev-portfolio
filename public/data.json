@@ -2,11 +2,11 @@
     
     {
       "image": "https://i.ibb.co.com/c6sZ0Z7/html-5.png",
-      "tech_name": "HTML5"
+      "tech_name": "HTML"
     },
     {
       "image": "https://i.ibb.co.com/sKgrFzL/css-3.png",
-      "tech_name": "CSS3"
+      "tech_name": "CSS"
     },
     {
       "image": "https://i.ibb.co.com/pyvzzGf/js.png",
@@ -14,15 +14,15 @@
     },
     {
       "image": "https://i.ibb.co.com/16XsMq2/physics.png",
-      "tech_name": "React.js"
+      "tech_name": "React"
     },
     {
       "image": "https://i.ibb.co.com/ssjqZzL/programing.png",
-      "tech_name": "Node.js"
+      "tech_name": "Node"
     },
     {
       "image": "https://i.ibb.co.com/52d9gSb/Express.png",
-      "tech_name": "Express.js"
+      "tech_name": "Express"
     },
     {
       "image": "https://i.ibb.co.com/7p6M5dT/mongo.png",
@@ -30,7 +30,7 @@
     },
     {
       "image": "https://i.ibb.co.com/2v7gydr/Tailwind-CSS.png",
-      "tech_name": "Tailwind CSS"
+      "tech_name": "TailwindCSS"
     },
     {
       "image": "https://i.ibb.co.com/8xR00mZ/social.png",

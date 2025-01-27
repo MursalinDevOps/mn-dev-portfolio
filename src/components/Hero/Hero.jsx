@@ -13,7 +13,7 @@ const Hero = () => {
             />
           </div>
           <div className="">
-            <h3 className="text-2xl md:text-3xl font-semibold">Mursalin <small className="text-xs">( 18Y)</small></h3>
+            <h3 className="text-2xl md:text-3xl font-semibold">Mursalin <small className="text-xs">( 18Y )</small></h3>
             <p className="flex items-center gap-2"><span><img className="w-8 rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/255px-Flag_of_Bangladesh.svg.png" alt="" /></span> Based in Bangladesh </p>
           </div>
         </div>
@@ -57,13 +57,13 @@ const Hero = () => {
         >
           <FiInstagram className="text-2xl"></FiInstagram>
         </a>
-        {/* <a
-          href="https://x.com/Mn_Mursalin"
-          target="_blank"
+        <a
+          // href=""
+          // target="_blank"
           className="w-12 h-12 p-2 rounded-full border border-gray-300 flex items-center justify-center group hover:bg-gray-300  transition duration-300 ease-in-out hover:text-black hover:border-black hover:-translate-y-1"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-300 group-hover:text-gray-800" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 0h-7.5L12 7.4 7.1 0H0l8.5 12.2L0 24h7.6l4.4-6.3L16.5 24h7.5l-9-12z"></path></svg>
-        </a> */}
+          <FaDownload></FaDownload>
+        </a>
       </div>
     </div>
   );

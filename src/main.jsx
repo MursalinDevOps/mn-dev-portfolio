@@ -10,6 +10,7 @@ import Root from './components/Root';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import ContactMe from './components/Contact/ContactMe';
+import Contact from './components/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -17,20 +18,20 @@ const router = createBrowserRouter([
     element: <Root></Root>,
   },
   {
-    path:'/about',
-    element:<About></About>
+    path: '/about',
+    element: <About></About>
   },
   {
-    path:'/projects',
-    element:<Projects></Projects>
+    path: '/projects',
+    element: <Projects></Projects>
   },
   {
-path:'/contact',
-element:<ContactMe></ContactMe>
+    path: '/contact',
+    element: <Contact></Contact> //<ContactMe></ContactMe>
   }
 ]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )

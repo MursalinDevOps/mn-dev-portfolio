@@ -1,4 +1,5 @@
 import About from "./About/About";
+import Contact from "./Contact/Contact";
 import ContactMe from "./Contact/ContactMe";
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
@@ -34,7 +35,8 @@ const Root = () => {
                     <About></About>
                 </section>
                 <section>
-                    <ContactMe></ContactMe>
+                    {/* <ContactMe></ContactMe> */}
+                    <Contact></Contact>
                 </section>
             </main>
             <footer className="bg-[#0a0a0a] py-5 text-base-300">

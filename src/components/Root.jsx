@@ -12,11 +12,11 @@ const Root = () => {
     {/*2. bg-gradient-to-r from-[#1a001a] to-[#0a0a0a] */ }
     return (
         <div className="w-full min-h-screen">
-            <header className="md:min-h-screen bg-gradient-to-b from-[#003333] to-[#0a0a0a] ">
+            <header className="bg-gradient-to-b from-[#003333] to-[#0a0a0a] ">
                 {/* navbar */}
                 <Navbar></Navbar>
                 {/* hero */}
-                <div className="text-base-300  min-h-[calc(100vh-70px)] flex justify-center items-center md:block md:min-h-36 lg:mt-32 ">
+                <div className="text-base-300  lg:min-h-[calc(100vh-100px)] min-h-[calc(100vh-70px)] flex flex-col justify-center items-center">
                     <Hero></Hero>
                 </div>
             </header>

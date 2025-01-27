@@ -25,8 +25,8 @@ const About = () => {
           className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
         />
         <p className="text-lg text-base-300 leading-relaxed" id="about-description">
-          I'm a 18 year old self-taught developer based in Bangladesh 🇧🇩, practicing web
-          development for more than 1 year. During this time, I've worked with
+          I'm a 18 year old self-taught developer from Dhaka, Bangladesh. I'm practicing web
+          development for more than a year. During this time, I've worked with
           various technologies and built several projects. Currently, I'm
           focused on front-end development and am looking for an part-time job or internship to
           apply my skills and grow as a developer within a team environment.

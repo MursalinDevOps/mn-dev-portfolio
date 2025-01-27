@@ -1,0 +1,42 @@
+[
+    {
+        "title": "The Learn Quest",
+        "image": "https://i.ibb.co.com/q9FcZZh/Learn-Quest.png",
+        "description": "highlights about the project",
+        "techs": [
+            "JavaScript",
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "TailwindCSS",
+            "Firebase"
+        ],
+        "siteURL": "https://learnquest-1016f.web.app/",
+        "githubURL": ""
+    },
+    {
+        "title": "The Gadget Heaven",
+        "image": "https://i.ibb.co.com/cyQscdH/Gadgets.png",
+        "description": "highlights about the project",
+        "techs": [
+            "JavaScript",
+            "React",
+            "TailwindCSS"
+        ],
+        "siteURL": "https://the-gadget-heaven.surge.sh/",
+        "githubURL": ""
+    },
+    {
+        "title": "Peddy",
+        "description": "highlights about the project",
+        "image": "https://i.ibb.co.com/BfQ7PjL/Peddy.png",
+        "techs": [
+            "JavaScript",
+            "React",
+            "TailwindCSS"
+        ],
+        "siteURL": "https://mn-a6-peddy.surge.sh/",
+        "githubURL": ""
+    }
+]

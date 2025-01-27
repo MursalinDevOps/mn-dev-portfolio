@@ -1,3 +1,4 @@
+import { FaDownload } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 
 const Hero = () => {
@@ -21,15 +22,15 @@ const Hero = () => {
             <span className="pl-14"> MERNSTACK</span> <br />
             DEVELOPER
           </h1>
-          {/* <button className=" border py-3 px-6 absolute bottom-1 -right-16 rounded-full text-white font-medium bg-gradient-to-r from-purple-900 via-purple-700 to-purple-900 hover:via-purple-400 shadow-md transition-transform transform hover:scale-105">
-            Contact Me
+          {/* <button className=" btn btn-outline py-3 px-6 absolute bottom-3 -right-16 rounded-full text-white font-medium shadow-md hover:bg-white hover:text-black transition-transform transform hover:scale-105">
+            <span><FaDownload></FaDownload></span> Resume
           </button> */}
         </div>
       </div>
       {/* social icons */}
       <div className="mt-4 flex gap-4">
         <a
-          href="https://github.com/MursalinDevOps"
+          href="https://github.com/mursalin06"
           target="_blank"
           className="w-12 h-12 p-2 rounded-full border border-gray-300 flex items-center justify-center group hover:bg-gray-300  transition duration-300 hover:text-black hover:border-black ease-in-out hover:-translate-y-1"
         >
@@ -56,13 +57,13 @@ const Hero = () => {
         >
           <FiInstagram className="text-2xl"></FiInstagram>
         </a>
-        <a
+        {/* <a
           href="https://x.com/Mn_Mursalin"
           target="_blank"
           className="w-12 h-12 p-2 rounded-full border border-gray-300 flex items-center justify-center group hover:bg-gray-300  transition duration-300 ease-in-out hover:text-black hover:border-black hover:-translate-y-1"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-300 group-hover:text-gray-800" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 0h-7.5L12 7.4 7.1 0H0l8.5 12.2L0 24h7.6l4.4-6.3L16.5 24h7.5l-9-12z"></path></svg>
-        </a>
+        </a> */}
       </div>
     </div>
   );

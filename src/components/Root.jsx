@@ -14,9 +14,11 @@ const Root = () => {
         <div className="w-full min-h-screen">
             <header className="bg-gradient-to-b from-[#003333] to-[#0a0a0a] ">
                 {/* navbar */}
-                <Navbar></Navbar>
+                <div className="fixed top-0 left-1/2 transform -translate-x-1/2 z-50">
+                    <Navbar></Navbar>
+                </div>
                 {/* hero */}
-                <div className="text-base-300  lg:min-h-[calc(100vh-100px)] min-h-[calc(100vh-70px)] flex flex-col justify-center items-center">
+                <div className="text-base-300  lg:min-h-[calc(100vh-70px)] min-h-[calc(100vh-70px)] flex flex-col justify-center items-center">
                     <Hero></Hero>
                 </div>
             </header>

@@ -12,8 +12,8 @@
             "TailwindCSS",
             "Firebase"
         ],
-        "siteURL": "https://learnquest-1016f.web.app/",
-        "githubURL": ""
+        "siteURL": "https://learn-quest-mursalin.netlify.app/",
+        "githubURL": "https://github.com/mursalin06/learn_quest_client"
     },
     {
         "title": "The Gadget Heaven",
@@ -25,7 +25,7 @@
             "TailwindCSS"
         ],
         "siteURL": "https://the-gadget-heaven.surge.sh/",
-        "githubURL": ""
+        "githubURL": "https://github.com/mursalin06/gadgets"
     },
     {
         "title": "Peddy",
@@ -37,6 +37,6 @@
             "TailwindCSS"
         ],
         "siteURL": "https://mn-a6-peddy.surge.sh/",
-        "githubURL": ""
+        "githubURL": "https://github.com/mursalin06/peddy"
     }
 ]

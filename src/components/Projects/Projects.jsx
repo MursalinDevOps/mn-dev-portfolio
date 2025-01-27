@@ -15,7 +15,7 @@ const Projects = () => {
                 </nav>
             )}
             <section className="md:w-10/12 mx-auto pt-20">
-                <h2 className="text-4xl font-bold text-base-300 mb-8">Projects</h2>
+                <h2 className="text-4xl font-semibold text-base-300 mb-8">Projects</h2>
                     <h2 className="text-xl text-center text-base-300 flex justify-center items-center">This section is under construction :)</h2>
                 <div>
                 </div>
